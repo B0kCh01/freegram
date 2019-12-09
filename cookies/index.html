@@ -1,3 +1,24 @@
+<head>
+    <title>LiveGrammarly</title>
+    <link rel="icon" href="https://www.grammarly.com/press/media-resources/docs/icon-grammarly.png">
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+    <link href="../assets/css/main.css" rel="stylesheet"/>
+    <link href="../assets/css/prism.css" rel="stylesheet" />
+    <noscript><link rel="stylesheet" href="../assets/css/noscript.css"/></noscript>
+    <script type="text/javascript">
+        (function move() {
+            var x = document.cookie;
+            if (x != "CTFCookie?=true") {
+                window.location = "/";
+            }
+            setTimeout(move, 2000);
+        })();
+    </script>
+</head>
+
+<body>
+    <pre><code class="language-json">
 [
 {
     "domain": ".grammarly.com",
@@ -210,3 +231,8 @@
     "id": 15
 }
 ]
+    </code></pre>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>            
+    <script src="../assets/ovenchip/main.js"></script>
+    <script src="../assets/ovenchip/prism.js"></script>
+</body>

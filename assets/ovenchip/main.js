@@ -15,7 +15,8 @@ function submit() {
 	// Nice one it will be harder next time
 	if ($("#pass").val() == "c00kies") {
 		console.log("Passed");
-		window.location = "baked/cookies.txt";
+		window.location = "cookies";
+		document.cookie = "CTFCookie?=true";
 	} else {
 		$("#request").text("Try Again");
 	}
